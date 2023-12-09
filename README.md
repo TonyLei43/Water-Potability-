@@ -7,7 +7,7 @@ Ensuring access to safe drinking water is crucial for public health. This projec
 
 ## Dataset
 
-The dataset comprises water quality metrics for 3276 different water bodies. Key features include:
+The [dataset](https://www.kaggle.com/datasets/adityakadiwal/water-potability) comprises water quality metrics for 3276 different water bodies. Key features include:
 
 1. **pH value:** Indicator of water acidity or alkalinity (WHO recommended range: 6.5–8.5).
 2. **Hardness:** Caused by calcium and magnesium salts, affecting soap precipitation.
@@ -30,7 +30,8 @@ The task is to predict water potability, addressing the challenge of class imbal
 - Logistic Regression: _accuracy_
 - XGBoost: _accuracy_
 - Random Forest: _~80% accuracy_
-- Support Vector Machine (SVM): _accuracy_
+- Support Vector Machine (SVM): _~70% accuracy_
+- Naive Bayes: _~63% accuracy_
 - Neural Network (NN): _accuracy_
 
 ## Impact
